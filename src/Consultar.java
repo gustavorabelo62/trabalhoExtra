@@ -19,7 +19,7 @@ public class Consultar {
   	
  	public Contato buscarContato(String cpf){
  		for (Contato contato : listaContatos ){
- 			if(contato.getNome.getNumero().equals(getEmail)){
+ 			if(Contato.getEmail().equals(Email)){
  				System.out.println("Contato encotrado...");
  				System.out.println(Contato);
  				return Contato;
