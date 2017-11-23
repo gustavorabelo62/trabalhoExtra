@@ -1,5 +1,4 @@
 
-import java.util.ArrayList;
 
 
 public class Contato {
@@ -7,7 +6,7 @@ public class Contato {
     
     private String Nome;
     private String Email;
-    private int Telefone;
+    private String Telefone;
 
     public void setNome(String Nome) {
         this.Nome = Nome;
@@ -17,7 +16,7 @@ public class Contato {
         this.Email = Email;
     }
 
-    public void setTelefone(int Telefone) {
+    public void setTelefone(String Telefone) {
         this.Telefone = Telefone;
     }
 
@@ -29,13 +28,13 @@ public class Contato {
         return Email;
     }
 
-    public int getTelefone() {
+    public String getTelefone() {
         return Telefone;
     }
 
     
    
- public Contato(String Nome, String Email, int Telefone) {
+ public Contato(String Nome, String Email, String Telefone) {
         this.Nome = Nome;
         this.Email = Email;
         this.Telefone = Telefone;

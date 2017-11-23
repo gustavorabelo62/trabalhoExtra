@@ -17,7 +17,7 @@ public class Consultar {
  		listaContatos.add(c);
   	}
   	
- 	public Contato buscarContato(String cpf){
+ 	public Contato buscarEmail(String Email ){
  		for (Contato contato : listaContatos ){
  			if(Contato.getEmail().equals(Email)){
  				System.out.println("Contato encotrado...");
@@ -29,4 +29,27 @@ public class Consultar {
  		return null;
  	}
    
+        public Contato buscarNome(String Nome ){
+ 		for (Contato contato : listaContatos ){
+ 			if(Contato.getNome().equals(Nome)){
+ 				System.out.println("Contato encotrado...");
+ 				System.out.println(Contato);
+ 				return Contato;
+ 			}
+ 		}
+ 		System.out.println("Cliente não encotrado...");
+ 		return null;
+ 	}
+        
+        public Contato buscarTelefone(int Telefone ){//o equal so funciona com String?
+ 		for (Contato contato : listaContatos ){
+ 			if(Contato.getTelefone().equals( Telefone )){
+ 				System.out.println("Contato encotrado...");
+ 				System.out.println(Contato);
+ 				return Contato;
+ 			}
+ 		}
+ 		System.out.println("Cliente não encotrado...");
+ 		return null;
+ 	}
 }
