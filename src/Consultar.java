@@ -52,4 +52,16 @@ public class Consultar {
  		System.out.println("Cliente não encotrado...");
  		return null;
  	}
+        //tentei muda o toString mas não mudou nada 
+        /*public String toString(){
+  	*	return "\nNome: " + Contato.getNome() +Contato.getEmail()+Contato.getTelefone() +
+ 	*			"\nNome: " + Contato.getNome() +
+        *                       "\nNome: " +Contato.getEmail()+
+        *                       "\nNome: " +Contato.getTelefone()
+        *              ;
+ 	*			
+  	*}
+        */
+        
+        
 }

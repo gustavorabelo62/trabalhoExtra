@@ -9,6 +9,7 @@ public class Principal {
         
         s1.cadastrarContato(c1);
 
+        System.out.println(s1);
         System.out.println(c1);
         
     }
